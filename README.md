@@ -47,6 +47,8 @@ If you don't provide some of the optional vars, the corresponding features will 
 Install the dependencies:
 
 ```bash
+nvm use 16.10.0
+npm i -g yarn
 yarn
 ```
 
