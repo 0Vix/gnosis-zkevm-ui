@@ -9,6 +9,8 @@ import {
   AccordionDetails,
   Accordion,
   useMediaQuery,
+  Box,
+  Link,
 } from '@mui/material'
 import { useRouter } from 'next/router'
 import { CREATE_SAFE_EVENTS, LOAD_SAFE_EVENTS } from '@/services/analytics/events/createLoadSafe'
@@ -53,6 +55,31 @@ const NewSafe = () => {
 
       <Grid item flex={1}>
         <div className={css.content}>
+          <Box
+            mb={3}
+            paddingX={2}
+            paddingY={1.25}
+            borderRadius={2}
+            bgcolor="#FFFFFF33"
+            display="flex"
+            flexDirection="row"
+            gap={0.75}
+            width="fit-content"
+          >
+            <img src="/images/common/warning-white.svg" alt="warning" />
+
+            <Typography>
+              This version of zkEVM Safe is deployed using{' '}
+              <Link href="#" color="inherit" target="_blank">
+                Safe API
+              </Link>{' '}
+              and{' '}
+              <Link href="https://github.com/maticnetwork/gnosis-zkevm-ui" color="inherit" target="_blank">
+                Open Source Repo
+              </Link>
+            </Typography>
+          </Box>
+
           <Typography variant="h1" fontSize={[44, null, 52]} lineHeight={1} letterSpacing={-1.5} mb={1}>
             Welcome to the zkEVM Safe
           </Typography>
