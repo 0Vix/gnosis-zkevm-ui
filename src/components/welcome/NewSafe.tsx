@@ -53,18 +53,11 @@ const NewSafe = () => {
 
       <Grid item flex={1}>
         <div className={css.content}>
-          <Typography
-            variant="h1"
-            fontSize={[44, null, 52]}
-            lineHeight={1}
-            letterSpacing={-1.5}
-            color="static.main"
-            mb={1}
-          >
+          <Typography variant="h1" fontSize={[44, null, 52]} lineHeight={1} letterSpacing={-1.5} mb={1}>
             Welcome to the zkEVM Safe
           </Typography>
 
-          <Typography mb={5} color="static.main">
+          <Typography mb={5}>
             The most trusted decentralized custody protocol and collective asset management platform.
           </Typography>
 
