@@ -25,9 +25,9 @@
 }
 
 .content {
-  background: linear-gradient(-90deg, #10ff84, #5fddff);
-  background-size: 200% 200%;
-  animation: gradient 15s ease infinite;
+  background-image: url(/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 6px;
   padding: var(--space-8);
   display: flex;

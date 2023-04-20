@@ -51,7 +51,9 @@ const initialState: SettingsState = {
     copy: true,
     qr: true,
   },
-  theme: {},
+  theme: {
+    darkMode: true,
+  },
   env: {
     rpc: {},
     tenderly: {
