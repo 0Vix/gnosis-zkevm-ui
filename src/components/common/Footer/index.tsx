@@ -41,6 +41,16 @@ const Footer = (): ReactElement | null => {
           <Typography variant="caption">&copy;{new Date().getFullYear()} Polygon Technology</Typography>
         </li>
         <li>
+          <ExternalLink noIcon href="#">
+            Privacy Policy
+          </ExternalLink>
+        </li>
+        <li>
+          <ExternalLink noIcon href="#">
+            Terms of use
+          </ExternalLink>
+        </li>
+        <li>
           <ExternalLink noIcon href="https://polygon.technology/polygon-zkevm">
             Learn more about zkEVM
           </ExternalLink>
