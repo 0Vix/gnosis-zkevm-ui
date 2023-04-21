@@ -41,12 +41,12 @@ const Footer = (): ReactElement | null => {
           <Typography variant="caption">&copy;{new Date().getFullYear()} Polygon Technology</Typography>
         </li>
         <li>
-          <ExternalLink noIcon href="#">
+          <ExternalLink noIcon href="https://polygon.technology/privacy-policy">
             Privacy Policy
           </ExternalLink>
         </li>
         <li>
-          <ExternalLink noIcon href="#">
+          <ExternalLink noIcon href="https://polygon.technology/terms-of-use">
             Terms of use
           </ExternalLink>
         </li>

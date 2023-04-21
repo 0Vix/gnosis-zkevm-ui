@@ -70,12 +70,8 @@ const NewSafe = () => {
 
             <Typography>
               This version of zkEVM Safe is deployed using{' '}
-              <Link href="#" color="inherit" target="_blank">
-                Safe API
-              </Link>{' '}
-              and{' '}
-              <Link href="https://github.com/maticnetwork/gnosis-zkevm-ui" color="inherit" target="_blank">
-                Open Source Repo
+              <Link href="https://github.com/safe-global" color="inherit" target="_blank">
+                Safe Open Source Repositories
               </Link>
             </Typography>
           </Box>
